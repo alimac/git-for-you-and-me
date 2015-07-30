@@ -145,6 +145,19 @@ Note:
 
 
 
+## Configure git
+- system <i class="fa fa-laptop"></i>
+- global <i class="fa fa-user"></i>
+- local <i class="fa fa-folder-open"></i>
+
+Note:
+Configuration has scope:
+- system-wide (for all users of a system)
+- global (for all of user's projects)
+- local (for a specific project)
+
+
+
 
 
 
