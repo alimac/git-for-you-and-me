@@ -75,6 +75,7 @@ collaborative
 Note:
 - single-user: local, or local+remote
 - collaborative: local+remote
+- code, websites, books, slides
 
 
 
