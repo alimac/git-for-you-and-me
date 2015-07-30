@@ -184,7 +184,21 @@ git config --global user.email hello@alim.ac
 
 
 
-## Setting
+### Try these
+~~~ git
+git config --global color.ui true
+git config --global core.excludesfile /path/to/home/directory/.gitignore
+git config --global core.whitespace trailing-space
+~~~
+
+Note:
+- have git use colors in output
+- ignore certain files globally: .DS\_Store, \*.swp
+- show trailing whitespace
+
+
+
+## Project
 
 
 
