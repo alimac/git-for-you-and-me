@@ -66,7 +66,7 @@ Note:
 <!-- .element class="heading" -->
 <br>
 
-one person
+single user
 <!-- .element class="fragment heading invert" -->
 
 collaborative
