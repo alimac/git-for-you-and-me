@@ -432,6 +432,31 @@ Note:
 
 
 
+### Editor
+~~~
+git config --global core.editor atom
+~~~
+
+Note:
+- change default editor to Sublime Text, Atom
+
+
+
+### Message
+~~~
+Subject
+
+Longer message
+# Comments are ignored
+~~~
+
+Note:
+- Imagine saying "This commit will..." before writing the message
+- Short subject, blank line, longer message
+- Prefix with a ticket number
+
+
+
 ## Push
 
 
