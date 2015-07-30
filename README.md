@@ -81,10 +81,33 @@ Note:
 ## Distributed or centralized?
 
 Note:
-- Centralized: checkout of recent files, history on a server
+
+
+
+<!-- .slide: data-state="show-header" data-header="Diagram by Scott Chacon and Ben Straub, git-scm.com" -->
+## Centralized
+<img src="custom/images/centralized.png">
+
+Note:
+- Centralized:
+ - also called client-server model
+ - local checkout of recent files
+ - full history of the project is on a central server
+ - CVS, Subversion
+
+
+
+<!-- .slide: data-state="show-header" data-header="Diagram by Scott Chacon and Ben Straub, git-scm.com" -->
+## Distributed
+<img src="custom/images/distributed.png">
+
+Note:
 - Distributed:
- - full history in every repo
- - authoritative repo
+ - each developer works directly with their own local repository
+ - changes are shared between repositories as a separate step
+ - full history in every repository
+ - agreement on which is the authoritative repository
+ - Mercurial, Git
 
 
 
