@@ -199,7 +199,39 @@ Note:
 
 
 
-## Project
+## Sample project
+- local repository
+- remote repository
+
+
+
+### Packing list
+- <i class="fa fa-folder-open"></i> packing-list
+ - <i class="fa fa-file-text-o"></i> README.md
+
+
+~~~ markdown
+# Packing List
+
+Things to bring.
+~~~
+
+
+
+### Initialize repository
+
+~~~ bash
+cd packing-list
+git init
+  Initialized empty Git repository in /Users/alimac/packing-list/.git/
+~~~
+
+- <i class="fa fa-folder-open"></i> packing-list
+ - <i class="fa fa-file-text-o"></i> README.md
+ - <i class="fa fa-folder-open"></i> **.git**
+
+Note:
+- **.git/** is a hidden folder where your repository's snapshots and history are stored
 
 
 
