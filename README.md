@@ -89,11 +89,10 @@ Note:
 <img src="custom/images/centralized.png">
 
 Note:
-- Centralized:
- - also called client-server model
- - local checkout of recent files
- - full history of the project is on a central server
- - CVS, Subversion
+- Client-server model
+- Local checkout of recent files
+- Full history of the project is on a central server
+- Example: CVS, Subversion
 
 
 
@@ -102,12 +101,11 @@ Note:
 <img src="custom/images/distributed.png">
 
 Note:
-- Distributed:
- - each developer works directly with their own local repository
- - changes are shared between repositories as a separate step
- - full history in every repository
- - agreement on which is the authoritative repository
- - Mercurial, Git
+- Each developer works directly with their own local repository
+- Changes are shared between repositories as a separate step
+- Full history in every repository
+- Agreement on which is the authoritative repository
+- Example: Mercurial, Git
 
 
 
