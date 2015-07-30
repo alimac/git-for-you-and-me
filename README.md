@@ -440,6 +440,77 @@ git add -p
 ~~~
 <!-- .element: class="large-code" -->
 
+Note:
+- git will ask which changes to stage
+
+
+
+### README.md
+~~~
+# Packing List
+
+Things to bring.
+
+## Technology
+laptop
+
+## Clothes
+skirt with pockets
+
+## Toiletries
+toothbrush
+~~~
+
+
+
+### git add -p
+~~~
+diff --git a/README.md b/README.md
+index da0a4b2..9e775a7 100644
+--- a/README.md
++++ b/README.md
+@@ -2,6 +2,11 @@
+
+ Packing list for trips.
+
++## Technology
+ laptop
++
++## Clothes
+ skirt with pockets
++
++## Toiletries
+ toothbrush
+Stage this hunk [y,n,q,a,d,/,s,e,?]?
+~~~
+<!-- .element: class="small-code" -->
+
+Note:
+- y: yes, n: no, q: quit
+- a: stage this hunk and all later hunks
+- /: search for a hunk matching the given regex
+- d: do not stage this hunk or any of the later hunks in the file
+- s: split, e: edit, ?: help
+
+
+
+### Split
+~~~
+Stage this hunk [y,n,q,a,d,/,s,e,?]? s
+Split into 3 hunks.
+@@ -2,4 +2,5 @@
+
+ Things to bring.
+
++## Technology
+ laptop
+Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
+~~~
+
+Note:
+`git add -p`: Stage only the changes you want.
+`git reset -p`: does the same, but for unstaging.
+
 
 
 ### Editor
