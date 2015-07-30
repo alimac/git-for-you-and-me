@@ -221,8 +221,8 @@ Things to bring.
 ### Initialize repository
 
 ~~~ bash
-cd packing-list
-git init
+$ cd packing-list
+$ git init
   Initialized empty Git repository in /Users/alimac/packing-list/.git/
 ~~~
 
@@ -255,9 +255,136 @@ Committed
 Pushed
 <!-- .element class="fragment heading highlighter" -->
 
+Note:
+- Untracked: Git sees file, but doesn't know about it
+- Tracked: Git knows about file and tracks changes
+- Staged: Changes are ready to be commited
+- Committed: Changes to the file are saved to project history
+- Pushed: Changes are pushed to remote repository
+
 
 
 ## Sidekicks
+> Where am I?
+
+> What is going on?
+
+> What just happened?
+
+
+
+### git status
+~~~ git
+$ git status
+  On branch master
+
+  Initial commit
+
+  Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+
+    README.md
+
+  nothing added to commit but untracked files present (use "git add" to track)
+~~~
+
+Note:
+- tells us which branch are we on
+- shows untracked files, changed files
+- gives hints
+
+
+
+#### git add
+~~~ Git
+$ git add README.md
+$ git status
+  On branch master
+
+  Initial commit
+
+  Changes to be committed:
+    (use "git rm --cached <file>..." to unstage)
+
+    new file:   README.md
+~~~
+
+
+
+#### <i class="fa fa-file-text-o"></i> README.md
+~~~ markdown
+# Packing List
+
+Things to bring.
+
+- laptop
+- skirt with pockets
+- toothbrush
+~~~
+
+
+
+#### git status
+~~~
+$ git status
+  On branch master
+  Initial commit
+
+  Changes to be committed:
+    (use "git reset HEAD <file>..." to unstage)
+
+    modified:   README.md
+
+  Changes not staged for commit:
+    (use "git add <file>.." to update what will be committed)
+    (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   README.md
+~~~
+
+
+
+### git diff
+~~~
+$ git diff
+  diff --git a/README.md b/README.md
+  index daa8d60..da0a4b2 100644
+  --- a/README.md
+  +++ b/README.md
+  @@ -1,3 +1,7 @@
+   # Packing List
+
+   Things to bring.
+  +
+  +- laptop
+  +- skirt with pockets
+  +- toothbrush
+~~~
+
+
+
+#### git commit
+
+~~~ git
+$ git commit -m "Initial commit."
+  [master (root-commit) 1c50eb4] Initial commit.
+  1 file changed, 3 insertions(+)
+  create mode 100644 README.md
+~~~
+
+
+
+### git log
+
+~~~ git
+$ git log
+  commit b9fd7596e44051a99b683a19982c592fdcbca5a5
+  Author: Alina Mackenzie <hello@alim.ac>
+  Date:   Wed Mar 8 12:10:25 2015 -0500
+
+    Initial commit.
+~~~
+
 
 
 
