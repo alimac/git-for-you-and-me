@@ -1,5 +1,6 @@
-## <i class="fa fa-code-fork"></i> Git for you and me
-####_DrupalCorn 2015_
+<!-- .slide: data-background="#fff" -->
+# <i class="fa fa-code-fork"></i> Git for you and me
+### DrupalCorn 2015
 
 
 
