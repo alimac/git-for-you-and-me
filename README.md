@@ -54,16 +54,28 @@ experiment
 
 Note:
 - "Everybody's doing it."
-- 3 reasons
+- 3 reasons:
+  1. write project history
+  1. undo changes (thanks to history)
+  1. experiment and track changes
 
 
 
-## How
+## How?
+- one person
+- collabroative
 
+Note:
+- single-user: local, or local+remote
+- collaborative: local+remote
 
 
 ## Distributed or centralized?
 
+- Centralized: checkout of recent files, history on a server
+- Distributed:
+ - full history in every repo
+ - authoritative repo
 
 
 ## Hosting
