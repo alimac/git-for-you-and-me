@@ -106,8 +106,15 @@ h2.hidden {
 
 .reveal pre code {
   padding: 1em;
-  font-size: xx-large;
+  font-size: x-large;
   color: yellow;
   background: black;
-  line-height: 1.5em;
+  line-height: 1.25em;
+  display: inline-block;
+}
+
+.reveal pre {
+  box-shadow: none;
+  display: inline-block;
+  width: auto;
 }
