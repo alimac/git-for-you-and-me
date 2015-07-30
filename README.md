@@ -11,6 +11,7 @@ Note:
 
 
 ## Alina Mackenzie
+#### _University of Illinois at Chicago_
 <img src="custom/images/alimac-avatar.png">
 
 <a href="https://www.drupal.org/u/alimac"><i class="fa fa-drupal"></i> alimac</a>
