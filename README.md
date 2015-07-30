@@ -27,60 +27,76 @@ Note:
 
 
 
-<!-- .slide: data-background="custom/images/" data-background-size="" data-state="show-header" data-header="" -->
-
-Note:
-- Slide with a background image
+## Plan
 
 
 
-<!-- .slide: data-background="custom/images/isle-of-drupal.jpg" data-background-size="1280px" -->
-## Slide title
-<!-- .element: class="hidden" -->
-
-Note:
-- Hidden title
+## Why
 
 
 
-## Slide title
-<img src="custom/images/" class="fragment">
-
-Note:
-- Image as fragment
+## How
 
 
 
-## Slide title
-<!-- .element: class="heading" -->
-
-Note:
-- Title with a box around it
+## Distributed or centralized?
 
 
 
-## Slide title
-<!-- .element: class="heading invert" -->
-
-Note:
-- Inverted
+## Hosting
 
 
 
-> <i class="fa fa-quote-left"></i>
-> I mashed the button, but it didn't do anything.
-> <i class="fa fa-quote-right"></i>
-
-Note:
-- Quote
+## Command line and apps
 
 
 
-> <!-- .element: class="invert" -->
-> <i class="fa fa-quote-left"></i>
-> Me too!
-> <i class="fa fa-quote-right"></i>
-> <i class="fa fa-heart fragment current-visible" style="color: #c00;"></i>
+## Configure
 
-Note:
-- Inverted quote with a fragment
+
+
+## Setting
+
+
+
+## Phases
+
+
+
+## Sidekicks
+
+
+
+## Commit
+
+
+
+## Push
+
+
+
+## Undoing
+
+
+
+## Branching
+
+
+
+## Merging
+
+
+
+## Rebasing
+
+
+
+## Conflicts
+
+
+
+## More than one way
+
+
+
+## What next?
