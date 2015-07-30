@@ -113,7 +113,25 @@ Note:
 
 
 
-## Command line and apps
+## <i class="fa fa-terminal"></i> Command line
+Update to the latest version (2.5.0) <!-- .element: class="fragment" -->
+
+Note:
+- Download for Windows, comes with OS X, Linux
+- Tip: update for latest features
+
+
+
+## <i class="fa fa-desktop"></i> Apps
+- [SourceTree](https://www.sourcetreeapp.com/)
+- GitHub for [Windows](https://windows.github.com/) and [Mac](https://mac.github.com/)
+- [SmartGit](http://www.syntevo.com/smartgit/)
+
+Note:
+- SourceTree: OS X, Windows. Free
+- GitHub for: OS X, Windows. Free
+  - [GitHub Desktop](https://desktop.github.com/) - join waitlist
+- SmartGit: cross-platform. Commercial license, non-commercial license
 
 
 
