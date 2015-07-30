@@ -355,6 +355,7 @@ $ git status
 
     modified:   README.md
 ~~~
+<!-- .element: class="code-chunk" -->
 
 Note:
 - Still initial commit

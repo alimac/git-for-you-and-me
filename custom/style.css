@@ -106,11 +106,15 @@ h2.hidden {
 
 .reveal pre code {
   padding: 1em;
-  font-size: x-large;
+  font-size: xx-large;
   color: yellow;
   background: black;
   line-height: 1.25em;
   display: inline-block;
+}
+
+.reveal pre.code-chunk code {
+  font-size: x-large;
 }
 
 .reveal pre {
