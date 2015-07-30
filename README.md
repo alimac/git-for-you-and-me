@@ -545,27 +545,23 @@ Note:
 
 
 
-## Undoing
+## Undo
 
 
 
-## Branching
+## Branch
 
 
 
-## Merging
+## Merge
 
 
 
-## Rebasing
+## Rebase
 
 
 
 ## Conflicts
-
-
-
-## More than one way
 
 
 
