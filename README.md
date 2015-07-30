@@ -355,7 +355,7 @@ $ git status
 
     modified:   README.md
 ~~~
-<!-- .element: class="code-chunk" -->
+<!-- .element: class="small-code" -->
 
 Note:
 - Still initial commit
@@ -396,6 +396,7 @@ $ git commit -m "Initial commit."
   1 file changed, 3 insertions(+)
   create mode 100644 README.md
 ~~~
+<!-- .element: class="large-code" -->
 
 Note:
 - To **commit** is to write something down as history
@@ -414,6 +415,7 @@ $ git log
 
     Initial commit.
 ~~~
+<!-- .element: class="large-code" -->
 
 Note:
 - `git log` shows commit hash, author, date and message
@@ -432,10 +434,19 @@ Note:
 
 
 
+### Interactive staging
+~~~
+git add -p
+~~~
+<!-- .element: class="large-code" -->
+
+
+
 ### Editor
 ~~~
 git config --global core.editor atom
 ~~~
+<!-- .element: class="large-code" -->
 
 Note:
 - change default editor to Sublime Text, Atom
@@ -444,11 +455,13 @@ Note:
 
 ### Message
 ~~~
-Subject
+Add short descriptive subject line.
 
-Longer message
-# Comments are ignored
+Longer description in the form of paragraphs
+that include reasons for the change, reference
+tickets or other commits.
 ~~~
+<!-- .element: class="large-code" -->
 
 Note:
 - Imagine saying "This commit will..." before writing the message

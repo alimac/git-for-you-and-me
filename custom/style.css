@@ -113,8 +113,12 @@ h2.hidden {
   display: inline-block;
 }
 
-.reveal pre.code-chunk code {
+.reveal pre.small-code code {
   font-size: x-large;
+}
+
+.reveal pre.large-code code {
+  font-size: 1.75em;
 }
 
 .reveal pre {
