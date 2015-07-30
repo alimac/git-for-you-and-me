@@ -508,8 +508,8 @@ Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
 ~~~
 
 Note:
-`git add -p`: Stage only the changes you want.
-`git reset -p`: does the same, but for unstaging.
+- `git add -p`: Stage only the changes you want.
+- `git reset -p`: does the same, but for unstaging.
 
 
 
