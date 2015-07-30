@@ -3,7 +3,7 @@
 
 
 
-## [bit.ly/?](http://bit.ly/?)
+## [http://bit.ly/git-drupalcorn](http://bit.ly/git-drupalcorn)
 
 Note:
 - Slides and speaker notes available online
