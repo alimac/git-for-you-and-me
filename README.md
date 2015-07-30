@@ -110,6 +110,23 @@ Note:
 
 
 ## Hosting
+- [GitHub](https://github.com) <i class="fa fa-github-square"></i>
+- [BitBucket](https://bitbucket.org) <i class="fa fa-bitbucket-square"></i>
+- [GitLab](https://gitlab.com/users/sign_in)
+
+Note:
+- GitHub: free public repos, pay for private
+  - GitHub Education: student developer pack has free private repos
+- BitBucket: unlimited public and private, free for up to 5 users, academic plan
+- GitLab: free unlimited public/private repositories, unlimited private collaborators
+
+
+
+### Self-hosted
+- [GitLab CE](https://about.gitlab.com/downloads/)
+
+Note:
+- Community edition. Free.
 
 
 
