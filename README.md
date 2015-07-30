@@ -116,8 +116,7 @@ Note:
 - [GitLab](https://gitlab.com/users/sign_in)
 
 Note:
-- GitHub: free public repos, pay for private
-  - GitHub Education: student developer pack has free private repos
+- GitHub: free public repos, pay for private. GitHub Education: student developer pack
 - BitBucket: unlimited public and private, free for up to 5 users, academic plan
 - GitLab: free unlimited public/private repositories, unlimited private collaborators
 
@@ -128,6 +127,8 @@ Note:
 
 Note:
 - Community edition. Free.
+- Need your own server.
+- Digital Ocean has one-click install.
 
 
 
@@ -148,8 +149,7 @@ Note:
 
 Note:
 - SourceTree: OS X, Windows. Free
-- GitHub for: OS X, Windows. Free
-  - [GitHub Desktop](https://desktop.github.com/) - join waitlist
+- GitHub for: OS X, Windows. Free. [GitHub Desktop](https://desktop.github.com/) - join waitlist
 - SmartGit: cross-platform. Commercial license, non-commercial license
 
 
