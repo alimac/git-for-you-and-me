@@ -135,3 +135,51 @@ Note:
 
 
 ## What next?
+
+
+
+### Git Immersion
+#### [gitimmersion.com](http://gitimmersion.com)
+
+Note:
+- guided tour that walks through the fundamentals of Git
+- inspired by the premise that to know a thing is to do it
+- for step-by-step learners
+
+
+
+### Try Git
+#### [try.github.io](http://try.github.io)
+
+Note:
+- created by Code School, sponsored by GitHub
+- in browser tutorial
+- for instant gratification
+
+
+
+### Visualizing Git Concepts with D3
+#### [onlywei.github.io/explain-git-with-d3](http://onlywei.github.io/explain-git-with-d3)
+
+Note:
+- D3.js is a JavaScript library for data visualization
+- Animates git concepts like branching, pushing, merging
+- for visual learners of git concepts
+
+
+
+### Git for Teams
+#### [gitforteams.com](http://gitforteams.com)
+
+Note:
+- comprehensive look at using git for teams of people
+- for people who are looking for strategies to integrate git into existing teams
+
+
+
+### Pro Git
+#### [git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
+
+Note:
+- in-depth look at git, including what's inside git
+- for people who like to take things apart to learn
