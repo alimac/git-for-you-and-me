@@ -32,8 +32,7 @@ Note:
 ## Plan
 
 Note:
-- This is a beginner session
-- Introducing concepts, sprinkling with tips
+- Beginner session: introducing concepts, sprinkling with tips
 - Healthy dose of resources for beginners
 
 
@@ -209,6 +208,7 @@ Note:
 - <i class="fa fa-folder-open"></i> packing-list
  - <i class="fa fa-file-text-o"></i> README.md
 
+<br>
 
 ~~~ markdown
 # Packing List
@@ -225,6 +225,8 @@ $ cd packing-list
 $ git init
   Initialized empty Git repository in /Users/alimac/packing-list/.git/
 ~~~
+
+<br>
 
 - <i class="fa fa-folder-open"></i> packing-list
  - <i class="fa fa-file-text-o"></i> README.md
@@ -271,6 +273,9 @@ Note:
 
 > What just happened?
 
+Note:
+- The "three sidekicks" are 3 useful commands for orienting yourself in a project.
+
 
 
 ### git status
@@ -290,7 +295,8 @@ $ git status
 
 Note:
 - tells us which branch are we on
-- shows untracked files, changed files
+- Initial commit means there is no history written yet
+- shows untracked files
 - gives hints
 
 
@@ -309,6 +315,11 @@ $ git status
     new file:   README.md
 ~~~
 
+Note:
+- `git add` has 2 uses:
+ - start tracking a file
+ - stage a file that is ready to be committed
+
 
 
 #### <i class="fa fa-file-text-o"></i> README.md
@@ -317,10 +328,13 @@ $ git status
 
 Things to bring.
 
-- laptop
-- skirt with pockets
-- toothbrush
+laptop
+skirt with pockets
+toothbrush
 ~~~
+
+Note:
+- adding a few items to the list
 
 
 
@@ -342,6 +356,11 @@ $ git status
     modified:   README.md
 ~~~
 
+Note:
+- Still initial commit
+- Some changes are staged, some are not
+- Git keeps track of sets of changes within the same file
+
 
 
 ### git diff
@@ -356,10 +375,15 @@ $ git diff
 
    Things to bring.
   +
-  +- laptop
-  +- skirt with pockets
-  +- toothbrush
+  +laptop
+  +skirt with pockets
+  +toothbrush
 ~~~
+
+Note:
+- `git diff` shows changes between two versions of a file, changes that have not been staged yet
+- added lines are prefixed with a +
+- removed lines are prefixed with a -
 
 
 
@@ -371,6 +395,11 @@ $ git commit -m "Initial commit."
   1 file changed, 3 insertions(+)
   create mode 100644 README.md
 ~~~
+
+Note:
+- To **commit** is to write something down as history
+- `git commit -m` is a shortcut to do the commit in one line
+- `git commit` will open a text editor to write the commit message
 
 
 
@@ -385,6 +414,8 @@ $ git log
     Initial commit.
 ~~~
 
+Note:
+- `git log` shows commit hash, author, date and message
 
 
 
