@@ -235,7 +235,25 @@ Note:
 
 
 
+<!-- .slide: style="text-align: left;" data-background="custom/images/jurgen-mangelsdorf-waxing-moon.jpg" data-state="show-header" data-header="Photo: CC-BY-NC-ND Jürgen Mangelsdorf https://flic.kr/p/dUzdPx (cropped)" -->
 ## Phases
+<!-- .element class="heading" -->
+<br>
+
+Untracked
+<!-- .element class="fragment heading highlighter" -->
+
+Tracked
+<!-- .element class="fragment heading highlighter" -->
+
+Staged
+<!-- .element class="fragment heading highlighter" -->
+
+Committed
+<!-- .element class="fragment heading highlighter" -->
+
+Pushed
+<!-- .element class="fragment heading highlighter" -->
 
 
 
