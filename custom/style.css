@@ -98,3 +98,11 @@ h2.hidden {
   background-color: #FBDA5C;
   color: #212121;
 }
+
+.reveal pre code {
+  padding: 1em;
+  font-size: xx-large;
+  color: yellow;
+  background: black;
+  line-height: 1.5em;
+}

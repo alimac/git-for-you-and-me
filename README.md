@@ -158,6 +158,12 @@ Configuration has scope:
 
 
 
+### Name and email address
+
+~~~ git
+git config --global user.name "Alina Mackenzie"
+git config --global user.email hello@alim.ac
+~~~
 
 
 
