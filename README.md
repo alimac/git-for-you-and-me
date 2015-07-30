@@ -55,9 +55,9 @@ experiment
 Note:
 - "Everybody's doing it."
 - 3 reasons:
-  1. write project history
-  1. undo changes (thanks to history)
-  1. experiment and track changes
+ 1. write project history
+ 1. undo changes (thanks to history)
+ 1. experiment and track changes
 
 
 
@@ -114,7 +114,8 @@ Note:
 
 
 ## <i class="fa fa-terminal"></i> Command line
-Update to the latest version (2.5.0) <!-- .element: class="fragment" -->
+Update to the latest version (2.5.0)
+<!-- .element: class="fragment" -->
 
 Note:
 - Download for Windows, comes with OS X, Linux
