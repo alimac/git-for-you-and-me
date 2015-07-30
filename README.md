@@ -61,21 +61,31 @@ Note:
 
 
 
+<!-- .slide: data-background="custom/images/boris-baldinger-sprinting.jpg" style="text-align: left;" data-state="show-header" data-header="Photo: CC-BY Boris Baldinger https://flic.kr/p/ps8ZgK (cropped)" -->
 ## How?
-- one person
-- collabroative
+<!-- .element class="heading" -->
+<br>
+
+one person
+<!-- .element class="fragment heading invert" -->
+
+collaborative
+<!-- .element class="fragment heading invert" -->
 
 Note:
 - single-user: local, or local+remote
 - collaborative: local+remote
 
 
+
 ## Distributed or centralized?
 
+Note:
 - Centralized: checkout of recent files, history on a server
 - Distributed:
  - full history in every repo
  - authoritative repo
+
 
 
 ## Hosting
