@@ -25,10 +25,16 @@ char • o • jay • ka
 Note:
 - Developer and system administrator based in Chicago
 - Doing Drupal for ~4 years, active in the community for ~2 years
+- Using git for ~2 years
 
 
 
 ## Plan
+
+Note:
+- This is a beginner session
+- Introducing concepts, sprinkling with tips
+- Healthy dose of resources for beginners
 
 
 
