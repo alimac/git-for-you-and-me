@@ -38,7 +38,23 @@ Note:
 
 
 
-## Why
+<!-- .slide: data-background="custom/images/clement127-chemical-experiment.jpg" style="text-align: left;" data-state="show-header" data-header="Photo: CC-BY-NC-ND clement127 https://flic.kr/p/pZg3v (cropped)" -->
+## Why?
+<!-- .element class="heading" -->
+<br>
+
+history
+<!-- .element class="fragment heading invert" -->
+
+undo
+<!-- .element class="fragment heading invert" -->
+
+experiment
+<!-- .element class="fragment heading invert" -->
+
+Note:
+- "Everybody's doing it."
+- 3 reasons
 
 
 

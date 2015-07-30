@@ -41,15 +41,15 @@
   font-size: medium;
 }
 
-h2.heading {
-  background-color: rgba(255, 255, 255, 0.75);
+h2.heading, p.heading {
+  background-color: rgba(255, 255, 255, 0.85);
   color: rgba(22,22,22,1);
   padding: 0.5em 2em;
   display: inline-block;
 }
 
-h2.heading.invert {
-  background-color: rgba(0, 0, 0, 0.75);
+h2.heading.invert, p.heading.invert {
+  background-color: rgba(0, 0, 0, 0.85);
   color: #fff;
 }
 
