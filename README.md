@@ -136,7 +136,15 @@ Note:
 
 
 
-## Configure
+## SourceTree
+<img src="custom/images/sourcetree.png">
+
+Note:
+- Same concepts (add, remove, branch, merge) apply
+- At-a-glance view of the repository vs. command at a time
+
+
+
 
 
 
