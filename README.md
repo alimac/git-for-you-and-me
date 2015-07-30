@@ -421,6 +421,14 @@ Note:
 
 ## Commit
 
+> A set of related and reversible changes that function together as a unit of work.
+
+Note:
+- up to each developer to decide
+- when on a team, agree on conventions and document them
+- beware of unrelated changes, changes outside of the scope
+- base commits on tickets
+
 
 
 ## Push
