@@ -476,7 +476,7 @@ index da0a4b2..9e775a7 100644
 +++ b/README.md
 @@ -2,6 +2,11 @@
 
- Packing list for trips.
+ Things to bring.
 
 +## Technology
  laptop
