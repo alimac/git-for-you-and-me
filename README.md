@@ -690,6 +690,37 @@ Note:
 
 
 
+~~~
+git checkout master
+git merge test
+~~~
+
+
+
+### Fast-forward merge
+<img src="custom/images/fast-forward.png">
+
+Note:
+- master branch hasn't changed, move to last commit of test
+
+
+
+### Divergent branches
+<img src="custom/images/divergent-branches.png">
+
+Note:
+-
+
+
+
+### Merge commit
+<img src="custom/images/merge-commit.png">
+
+Note:
+-
+
+
+
 ## Rebase
 
 
