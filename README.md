@@ -780,7 +780,7 @@ Note:
 
 Note:
 - In step 1, git temporarily "lifts" all of the commits from the branch we are rebasing ("test")
-- Then applies commits from master branch (branch we are "rebasing on")
+- Then advances the branch that is being rebased to the same place as the branch we are rebasing on.
 
 
 
