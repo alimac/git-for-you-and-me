@@ -803,7 +803,7 @@ Note:
 
 
 
-### Snippet of <i class="fa fa-file-text-o"></i> README.md
+### <i class="fa fa-file-text-o"></i> README.md
 ~~~
 Things to bring.
 ~~~
