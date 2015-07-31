@@ -548,6 +548,21 @@ Note:
 
 
 ## Push
+~~~
+git add remote origin git@bitbucket.org:alimac/packing-list.git
+~~~
+<!-- .element: class="large-code" -->
+
+Note:
+- Add a remote repository
+
+
+
+### git push
+~~~
+git push -u origin master
+~~~
+<!-- .element: class="large-code" -->
 
 
 
@@ -589,6 +604,25 @@ Note:
 Things to bring.
 ~~~
 <!-- .element: class="large-code" -->
+
+
+
+### Contributor 1
+~~~
+Things to bring on a trip.
+~~~
+<!-- .element: class="large-code" -->
+<br>
+
+
+### Contributor 2
+~~~
+Things to bring on an expedition.
+~~~
+<!-- .element: class="large-code" -->
+
+
+
 ### Conflict markers
 ~~~
 <<<<<<< HEAD
@@ -610,6 +644,7 @@ Note:
 ~~~
 Things to bring on adventures.
 ~~~
+<!-- .element: class="large-code" -->
 
 `git add <file>`
 
