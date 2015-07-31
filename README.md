@@ -780,10 +780,10 @@ Note:
 <img src="custom/images/rebase-2.png">
 
 Note:
-- In step 2, git applies the commits that were "lifted" on top
-- To join the branches, we can now do a fast-forward merge
+- In step 2, git applies the commits that were "lifted"
+- Do a fast-forward merge to join branches
 - Useful when we need to keep a separate branch (publishing on GitHub pages)
-- * on commit 5 because its commit hash will be changed
+- Asterisk on commit 5 because its commit hash will be changed
 - `git rebase` rewrites history
 
 
