@@ -442,6 +442,8 @@ git add -p
 
 Note:
 - git will ask which changes to stage
+- But it will only ask about changes to tracked files
+- Use `git status` to find any new, untracked files
 
 
 
