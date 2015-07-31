@@ -575,6 +575,10 @@ git push -u origin master
 
 ## Undo
 
+Note:
+- Many ways to undo
+- Depends on which phase you are in
+
 
 
 ### Not committed yet
@@ -640,6 +644,14 @@ Note:
 Note:
 - If you pushed to remote repository, use `revert` to undo.
 - If you are the only contributor, `git push -f <remote> <branch>` will force an update
+
+
+
+### Flowchart
+
+> [Undoing changes in Git](https://raw.githubusercontent.com/emmajane/gitforteams/master/resources/workflow-undoing-changes.png)
+> <span>Emma Jane Hogbin Westby <a href="https://www.drupal.org/u/emmajane"><i class="fa fa-drupal"></i> emmajane</a></span>
+<!-- .element: class="quote-source" -->
 
 
 
