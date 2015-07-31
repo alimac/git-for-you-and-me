@@ -100,6 +100,7 @@ h2.hidden {
 }
 
 .reveal pre code {
+  border: 1px solid yellow;
   padding: 1em;
   font-size: xx-large;
   color: yellow;

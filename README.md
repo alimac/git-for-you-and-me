@@ -215,6 +215,7 @@ Note:
 
 Things to bring.
 ~~~
+<!-- .element: class="large-code" -->
 
 
 
@@ -225,7 +226,6 @@ $ cd packing-list
 $ git init
   Initialized empty Git repository in /Users/alimac/packing-list/.git/
 ~~~
-
 <br>
 
 - <i class="fa fa-folder-open"></i> packing-list
@@ -771,16 +771,6 @@ Note:
 
 
 
-<i class="fa fa-git-square"></i>
-- stop activity (merge, rebase) <!-- .element: class="fragment" -->
-- list files with conflicts  <!-- .element: class="fragment" -->
-
-<i class="fa fa-user"></i>
-- resolve conflicts  <!-- .element: class="fragment" -->
-- stage files to mark as resolved  <!-- .element: class="fragment" -->
-
-
-
 ### <i class="fa fa-file-text-o"></i> README.md
 ~~~
 Things to bring.
@@ -802,6 +792,16 @@ Things to bring on a trip.
 Things to bring on an expedition.
 ~~~
 <!-- .element: class="large-code" -->
+
+
+
+<i class="fa fa-git-square"></i>
+- stop activity (merge, rebase) <!-- .element: class="fragment" -->
+- list files with conflicts  <!-- .element: class="fragment" -->
+
+<i class="fa fa-user"></i>
+- resolve conflicts  <!-- .element: class="fragment" -->
+- stage files to mark as resolved  <!-- .element: class="fragment" -->
 
 
 
