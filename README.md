@@ -848,11 +848,11 @@ Note:
 
 ### Resolve
 ~~~
-Things to bring on adventures.
+Things to bring on a trip.
 ~~~
 <!-- .element: class="large-code" -->
 
-`git add <file>`
+`git add README.md`
 
 
 
