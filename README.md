@@ -664,28 +664,31 @@ Note:
 
 
 
-### git status
+### `git status`
 <img src="custom/images/branch-1.png">
 
 Note:
 - Starting point
-- HEAD is a special pointer that points to where we are now
+- "master" is pointer to our latest commit
+- "HEAD" is a special pointer that points to which branch we are on
 
 
 
-### git branch test
+### `git branch test`
 <img src="custom/images/branch-2.png">
 
 Note:
-- Create branch test
+- Create branch named "test"
+- "test" is a pointer to the same commit
 
 
 
-### git checkout test
+### `git checkout test`
 <img src="custom/images/branch-3.png">
 
 Note:
-- Switch to test branch
+- Switch to "test" branch
+- "HEAD" pointer points to "test"
 
 
 
@@ -768,7 +771,7 @@ Note:
 <img src="custom/images/rebase-1.png">
 
 Note:
-- In step 1, git temporarily "lifts" all of the commits since beginning of the branch
+- In step 1, git temporarily "lifts" all of the commits from the branch we are rebasing ("test")
 - Then applies commits from master branch (branch we are "rebasing on")
 
 
