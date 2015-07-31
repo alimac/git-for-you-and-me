@@ -856,7 +856,13 @@ Things to bring on a trip.
 
 
 
-## What next?
+## Next steps?
+
+Note:
+- Do not be afraid to take the next step
+- Experiment with git commands
+- There is (usually) more than one way to do a thing
+- Write down your conventions
 
 
 
@@ -909,3 +915,4 @@ Note:
 
 
 ## `git commit -m "Thank you, DrupalCorn."`
+[github.com/alimac/git-for-you-and-me](https://github.com/alimac/git-for-you-and-me)
