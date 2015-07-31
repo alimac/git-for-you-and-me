@@ -638,6 +638,52 @@ Note:
 
 ## Branch
 
+Note:
+- cheap way to create copies of the project
+- multiple copies in one directory
+- easy to integrate
+
+
+
+### git status
+<img src="custom/images/branch-1.png">
+
+Note:
+- Starting point
+- HEAD is a special pointer that points to where we are now
+
+
+
+### git branch test
+<img src="custom/images/branch-2.png">
+
+Note:
+- Create branch test
+
+
+
+### git checkout test
+<img src="custom/images/branch-3.png">
+
+Note:
+- Switch to test branch
+
+
+
+### Make a commit to test branch
+<img src="custom/images/branch-4.png">
+
+Note:
+- Experiment and commit changes
+
+
+
+### Switch back to master
+<img src="custom/images/branch-5.png">
+
+Note:
+- HEAD now points to master branch
+
 
 
 ## Merge
