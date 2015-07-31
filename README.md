@@ -267,11 +267,11 @@ Note:
 
 
 ## Sidekicks
-> Where am I?
+> <i class="fa fa-quote-left"></i> Where am I? <i class="fa fa-quote-right"></i>
 
-> What is going on?
+> <i class="fa fa-quote-left"></i> What is going on? <i class="fa fa-quote-right"></i>
 
-> What just happened?
+> <i class="fa fa-quote-left"></i> What just happened? <i class="fa fa-quote-right"></i>
 
 Note:
 - The "three sidekicks" are 3 useful commands for orienting yourself in a project.
