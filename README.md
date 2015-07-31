@@ -688,16 +688,23 @@ Note:
 
 ## Merge
 
-
-
 ~~~
-git checkout master
-git merge test
+$ git checkout master
+$ git merge test
 ~~~
+<!-- .element: class="large-code" -->
 
 
 
 ### Fast-forward merge
+<img src="custom/images/branch-5.png">
+
+Note:
+- HEAD now points to master branch
+
+
+
+#### git merge test
 <img src="custom/images/fast-forward.png">
 
 Note:
@@ -705,11 +712,11 @@ Note:
 
 
 
-### Divergent branches
+### Commits exist on both branches
 <img src="custom/images/divergent-branches.png">
 
 Note:
--
+- new commit on test, new commit on master
 
 
 
@@ -717,11 +724,42 @@ Note:
 <img src="custom/images/merge-commit.png">
 
 Note:
--
+- Merge commit ties the knot between two branches
 
 
 
 ## Rebase
+~~~
+$ git checkout test
+$ git rebase master
+~~~
+<!-- .element: class="large-code" -->
+
+
+
+### Commits exist on both branches
+<img src="custom/images/rebase-0.png">
+
+Note:
+- Different commits on each branch
+
+
+
+### Step 1 of rebase
+<img src="custom/images/rebase-1.png">
+
+Note:
+- In step 1, git temporarily "lifts" all of the commits since beginning of the branch
+- Then applies commits from master branch (branch we are "rebasing on")
+
+
+
+### Step 2 of rebase
+<img src="custom/images/rebase-2.png">
+
+Note:
+- In step 2, git applies the commits that were "lifted" on top
+- To join the branches, we can now do a fast-forward merge
 
 
 
