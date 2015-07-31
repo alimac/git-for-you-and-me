@@ -332,6 +332,7 @@ laptop
 skirt with pockets
 toothbrush
 ~~~
+<!-- .element: class="large-code" -->
 
 Note:
 - adding a few items to the list
@@ -424,7 +425,11 @@ Note:
 
 ## Commit
 
+> <i class="fa fa-quote-left"></i>
 > A set of related and reversible changes that function together as a unit of work.
+> <i class="fa fa-quote-right"></i>
+> <span>Alina Mackenzie <a href="https://www.drupal.org/u/alimac"><i class="fa fa-drupal"></i> alimac</a></span>
+<!-- .element: class="quote-source" -->
 
 Note:
 - up to each developer to decide
