@@ -563,6 +563,48 @@ Note:
 
 ## Conflicts
 
+<i class="fa fa-git-square"></i>
+- stop activity (merge, rebase) <!-- .element: class="fragment" -->
+- list files with conflicts  <!-- .element: class="fragment" -->
+
+<i class="fa fa-user"></i>
+- resolve conflicts  <!-- .element: class="fragment" -->
+- stage files to mark as resolved  <!-- .element: class="fragment" -->
+
+Note:
+- Conflicts occur when same lines are modified in different ways
+
+
+
+### <i class="fa fa-file-text-o"></i> README.md
+~~~
+Things to bring.
+~~~
+<!-- .element: class="large-code" -->
+### Conflict markers
+~~~
+<<<<<<< HEAD
+Things to bring on a trip.
+=======
+Things to bring on an expedition.
+>>>>>>> expedition-branch
+~~~
+<!-- .element: class="large-code" -->
+
+Note:
+- 7 less-thans, 7 greater thans, separated by 7 equals signs
+- Replace text between markers with your resolution
+- Delete markers
+
+
+
+### Resolve
+~~~
+Things to bring on adventures.
+~~~
+
+`git add <file>`
+
 
 
 ## What next?
