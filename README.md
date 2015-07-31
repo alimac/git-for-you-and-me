@@ -521,12 +521,12 @@ Note:
 
 ### Editor
 ~~~
-git config --global core.editor atom
+git config --global core.editor sublime
 ~~~
 <!-- .element: class="large-code" -->
 
 Note:
-- change default editor to Sublime Text, Atom
+Change default editor to [Sublime Text](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/), [Atom](https://help.github.com/articles/associating-text-editors-with-git/)
 
 
 
