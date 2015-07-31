@@ -760,6 +760,7 @@ Note:
 Note:
 - In step 2, git applies the commits that were "lifted" on top
 - To join the branches, we can now do a fast-forward merge
+- Useful when we need to keep a separate branch (publishing on GitHub pages)
 
 
 
