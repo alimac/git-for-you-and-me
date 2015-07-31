@@ -705,6 +705,8 @@ Note:
 
 Note:
 - HEAD now points to master branch
+- Branches are typically created for new features, hotfixes
+- Some projects (Drupal) use a branch per major version
 
 
 
@@ -716,25 +718,31 @@ $ git merge test
 ~~~
 <!-- .element: class="large-code" -->
 
+Note:
+- `git merge` is one way we can integrate changes from one branch to another
+- When we do a merge, a couple of things could happen
+
 
 
 ### Fast-forward merge
 <img src="custom/images/branch-5.png">
 
 Note:
-- HEAD now points to master branch
+- A fast-forward merge is the simplest type of merge
+- Let's review: atfer `git checkout master` HEAD now points to master branch
 
 
 
-#### git merge test
+#### `git merge test`
 <img src="custom/images/fast-forward.png">
 
 Note:
-- master branch hasn't changed, move to last commit of test
+- There are no new commits on the **master** branch
+- Advance **master** to where **test** is pointing
 
 
 
-### Commits exist on both branches
+### Three-way merge
 <img src="custom/images/divergent-branches.png">
 
 Note:
