@@ -905,3 +905,7 @@ Note:
 Note:
 - in-depth look at git, including what's inside git
 - for people who like to take things apart to learn
+
+
+
+## `git commit -m "Thank you, DrupalCorn."`
