@@ -463,6 +463,9 @@ skirt with pockets
 toothbrush
 ~~~
 
+Note:
+- Adding headings to separate items into categories
+
 
 
 ### git add -p
@@ -510,6 +513,7 @@ Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
 ~~~
 
 Note:
+- changes are split into smaller chunks, or hunks
 - `git add -p`: Stage only the changes you want.
 - `git reset -p`: does the same, but for unstaging.
 
