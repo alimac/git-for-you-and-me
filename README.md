@@ -803,11 +803,14 @@ Note:
 
 
 
-### <i class="fa fa-file-text-o"></i> README.md
+### Snippet of <i class="fa fa-file-text-o"></i> README.md
 ~~~
 Things to bring.
 ~~~
 <!-- .element: class="large-code" -->
+
+Note:
+- What if this line were modified in different ways, by two different contributors?
 
 
 
@@ -824,6 +827,10 @@ Things to bring on a trip.
 Things to bring on an expedition.
 ~~~
 <!-- .element: class="large-code" -->
+
+Note:
+- Both contributors modify the same line, to add different words.
+- When the second person tries to merge or rebase, git will tell them there is a conflict.
 
 
 
