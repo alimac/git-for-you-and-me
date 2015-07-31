@@ -549,6 +549,7 @@ Note:
 - Imagine saying "This commit will..." before writing the message
 - Short subject, blank line, longer message
 - Prefix with a ticket number
+- Be consistent
 
 
 
@@ -560,6 +561,7 @@ git add remote origin git@bitbucket.org:alimac/packing-list.git
 
 Note:
 - Add a remote repository
+- "origin" is a convention, use any meaningful name
 
 
 
