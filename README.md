@@ -569,6 +569,11 @@ Note:
 
 ## Conflicts
 
+Note:
+- Conflicts occur when same lines are modified in different ways
+
+
+
 <i class="fa fa-git-square"></i>
 - stop activity (merge, rebase) <!-- .element: class="fragment" -->
 - list files with conflicts  <!-- .element: class="fragment" -->
@@ -576,9 +581,6 @@ Note:
 <i class="fa fa-user"></i>
 - resolve conflicts  <!-- .element: class="fragment" -->
 - stage files to mark as resolved  <!-- .element: class="fragment" -->
-
-Note:
-- Conflicts occur when same lines are modified in different ways
 
 
 
