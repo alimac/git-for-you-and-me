@@ -99,11 +99,6 @@ h2.hidden {
   font-weight: 700;
 }
 
-.highlight {
-  background-color: #FBDA5C;
-  color: #212121;
-}
-
 .reveal pre code {
   padding: 1em;
   font-size: xx-large;

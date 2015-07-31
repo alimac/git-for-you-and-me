@@ -570,6 +570,72 @@ git push -u origin master
 
 
 
+### Not committed yet
+
+#### Unstage a file
+~~~
+$ git reset HEAD README.md
+$ git reset -p
+~~~
+<!-- .element: class="large-code" -->
+
+#### Undo all changes to a file
+~~~
+$ git checkout -- README.md
+~~~
+<!-- .element: class="large-code" -->
+
+
+
+### Committed but not pushed?
+#### Update last commit
+~~~
+$ git commit --amend
+~~~
+<!-- .element: class="large-code" -->
+
+#### Undo last commit
+~~~
+$ git reset --soft HEAD~1
+$ git reset HEAD~1
+~~~
+<!-- .element: class="large-code" -->
+
+Note:
+- You can always amend the last commit
+- Undo a commit and keep files staged
+- Undo a commit and unstage files
+
+
+
+### More than one commit
+#### Undo last 3 commits
+~~~
+$ git reset --soft HEAD~3
+$ git reset HEAD~3
+~~~
+
+#### Undo a specific commit
+~~~
+$ git revert 617ff153
+~~~
+
+Note:
+- Undo last 3 commits
+- Undo last 3 commits and unstage files
+- Revert a specific commit. This will create a new commit.
+
+
+
+### Pushed?
+**Don't do it.**  <!-- .element: class="fragment" style="color: #c00;" -->
+
+Note:
+- If you pushed to remote repository, use `revert` to undo.
+- If you are the only contributor, `git push -f <remote> <branch>` will force an update
+
+
+
 ## Branch
 
 
